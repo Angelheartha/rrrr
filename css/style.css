@@ -5,7 +5,8 @@ margin-top:0;
 width:100%;
 height:0%;
 background-color:black;
-position:fixed;
+position:absolute;
+left:0;
 z-index:1000;
 }
 
@@ -217,9 +218,6 @@ display:block;
 }
 
 
-.ul4 .lii3{
-padding-top:10px;
-}
 
 .ul4 .time0{
 background-color:#00CCFF;
@@ -233,6 +231,7 @@ margin-left:430px;
 color:black;
 box-shadow:inset -4px -4px #000080;
 }
+
 
 .ul4 .lii4{
 font-size:18px;
@@ -254,7 +253,15 @@ font-size:18px;
 font-weight:600;
 }
 
+
+.ul4 .lii3{
+padding-top:10px;
+
+}
+
+
 .picture1{
+
 height:36%;
 width:25%;
 position:absolute;
