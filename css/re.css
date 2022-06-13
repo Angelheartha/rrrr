@@ -1,15 +1,98 @@
-@media(max-width:780px){
+@media(max-width:480px){
 .header{
-display
+width:10%;
+position:absolute;
 }
+
+
+.div0{
+width:100%;
+height:5%;
+}
+
+.div0 img{
+height:80%;
+position:absolute;
+left:550px;
+top:5px;
 }
 
 
+.div1{
+display:none;
+}
 
- <ul class="ul0"
-            <li class="li0">ee</li>
-            <li class="li0">e</li>
-            <li class="li0">ee</li>
-            <li class="li0">e</li>
-            <li class="li0">e</li>
-        </ul
+.div2{
+transform:scale(1);
+}
+
+
+.div2 .ul0{
+text-align:left;
+float:left;
+width:100%;
+height:700%;
+background-color:black;
+transform:translateX(-110%)
+translateY(0%);
+transition:0.5s;
+list-style:none;
+position:relative;
+z-index:200;
+}
+
+.checkbox0:checked~.ul0{
+transform:translateX(0%);
+transform:translateY(-1%);
+}
+
+
+input[type=checkbox]{
+transform:scale(4);
+position:absolute;
+top:40px;
+left:90px;
+background-color:transparent;
+opacity:0;
+}
+
+body{
+background-color:lightblue;
+}
+
+.section0{
+background-color:#FF3333;
+margin-top:80px;
+height:100%;
+width:300%;
+}
+
+.picture1{
+height:36%;
+width:50%;
+position:absolute;
+top:400;
+left:570;
+}
+
+.ul4 li{
+font-size:20px;
+font-weight:900;
+margin-top:14px;
+letter-spacing:10px;
+}
+
+.ul4 .time0{
+width:50%;
+margin-left:250px;
+}
+
+.section1{
+width:100%;
+height:100%;
+background-size:cover;
+}
+
+}
+
+
