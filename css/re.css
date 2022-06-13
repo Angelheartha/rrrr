@@ -7,13 +7,13 @@ position:absolute;
 
 .div0{
 width:100%;
-height:5%;
+height:8%;
 }
 
 .div0 img{
 height:80%;
 position:absolute;
-left:550px;
+left:200px;
 top:5px;
 }
 
@@ -43,18 +43,35 @@ z-index:200;
 
 .checkbox0:checked~.ul0{
 transform:translateX(0%);
-transform:translateY(-1%);
+transform:translateY(6.4%);
 }
+
+.p0{
+font-size:10px;
+font-weight:900;
+position:absolute;
+left:-77;
+top:-5;
+}
+
 
 
 input[type=checkbox]{
 transform:scale(4);
 position:absolute;
-top:40px;
-left:90px;
+top:10px;
+left:10px;
 background-color:transparent;
 opacity:0;
 }
+
+.nav-toggle{
+position:absolute;
+top:-25;
+left:40;
+transform:scale(0.7);
+}
+
 
 body{
 background-color:lightblue;
@@ -62,35 +79,118 @@ background-color:lightblue;
 
 .section0{
 background-color:#FF3333;
-margin-top:80px;
+margin-top:0px;
 height:100%;
 width:100%;
 }
 
 .picture1{
-height:36%;
-width:50%;
+height:27%;
+width:30%;
 position:absolute;
-top:400;
-left:570;
+top:370;
+left:180;
 }
 
 .ul4 li{
 font-size:20px;
 font-weight:900;
-margin-top:14px;
-letter-spacing:10px;
+margin-top:40px;
 }
 
 .ul4 .time0{
-width:50%;
-margin-left:250px;
+width:80%;
+margin-left:0px;
+margin-top:0;
+}
+
+
+.ul4 .li4 span{
+font-size:30px;
 }
 
 .section1{
 width:100%;
 height:100%;
 background-size:cover;
+}
+
+.div2 .ul0{
+text-align:left;
+float:left;
+width:120%;
+height:1400%;
+background-color:black;
+transform:translateX(-110%)
+translateY(-30%);
+transition:0.5s;
+list-style:none;
+position:relative;
+z-index:200;
+}
+
+
+.sec:nth-child(odd) .picture5{
+position:absolute;
+left:0;
+}
+
+.sec:nth-child(odd) .work5{
+position:absolute;
+text-align:left;
+left:0;
+top:40;
+width:70%;
+font-size:15px;
+}
+
+
+.sec:nth-child(odd) .jo5{
+position:absolute;
+left:0;
+top:200;
+}
+
+.sec:nth-child(even) .picture5{
+position:absolute;
+left:200;
+top:10;
+}
+
+
+.modern2,
+iframe{
+display:none
+background-color:red;
+border-radius:40px;
+padding-left:0%;
+}
+
+.div3{
+width:100%;
+height:100%;
+background-color:lightpink;
+}
+
+
+.img2{
+width:70%;
+height:50%;
+background-color:yellow;
+position:absolute;
+top:30;
+left:70;
+z-index:1;
+}
+
+.ppp5{
+padding-top:-300px;
+font-size:18;
+font-weight:900;
+}
+
+body{
+background-color:#FF3333;
 }
 
 }
