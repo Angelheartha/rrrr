@@ -38,17 +38,30 @@ margin-left:5%;
 
 
 body {
-  background: #333;
+  padding:0;
+  margin:0;
 }
 
 
 .nav-toggle{
 background-color:transparent;
 border:1px solid transparent;
+transform:scale(1.4);
 float:left;
-margin-top:40px;
-margin-left:-48px;
+margin-top:40;
+margin-left:-44;
 }
+
+
+input[type=checkbox]{
+transform:scale(8);
+position:absolute;
+top:40px;
+left:50px;
+background-color:transparent;
+opacity:0;
+}
+
 
 
 
@@ -85,14 +98,6 @@ margin-left:-48px;
           transform-origin: 15% 95%;
 }
 
-input[type=checkbox]{
-transform:scale(3);
-position:absolute;
-top:40px;
-left:90px;
-background-color:transparent;
-opacity:0;
-}
 
 
 img{
@@ -110,6 +115,7 @@ img:hover{
 background-color:white;
 float:right;
 margin-right:90px;
+width:20%;
 }
 
 
@@ -148,10 +154,6 @@ color:white;
 
 
 
-body{
-background-color:red;
-}
-
 
 .div2 .ul0{
 text-align:left;
@@ -183,6 +185,15 @@ transition:0.5s;
 color:white;
 }
 
+.ul0 a{
+text-decoration:none;
+transition:0.7s;
+}
+
+.ul0 a:hover{
+color:white;
+}
+
 
 .ul0 .li0:hover{
 color:purple;
@@ -194,7 +205,11 @@ transform:translateX(0%);
 transform:translateY(0%);
 }
 
-
+.kpo{
+position:absolute;
+top:53;
+left:40;
+}
 
 
 
@@ -232,6 +247,12 @@ color:black;
 box-shadow:inset -4px -4px #000080;
 }
 
+.kpo{
+position:absolute;
+top:53;
+right:0;
+}
+
 
 .ul4 .lii4{
 font-size:18px;
@@ -261,15 +282,12 @@ padding-top:10px;
 
 
 .picture1{
-
 height:36%;
 width:25%;
 position:absolute;
 top:350;
 left:525;
 }
-
-
 
 
 
