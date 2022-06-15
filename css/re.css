@@ -196,7 +196,6 @@ background-color:lightpink;
 .img2{
 width:70%;
 height:50%;
-background-color:yellow;
 position:absolute;
 top:30;
 left:70;
@@ -228,6 +227,10 @@ width:70%;
 position:absolute;
 top:300;
 left:54;
+}
+
+.p0{
+margin-left:10px;
 }
 
 .ul4 .lii4{
@@ -355,6 +358,16 @@ margin:0;
 
 .footer{
 background-color:red;
+}
+
+.img2{
+margin-left:-20px;
+
+}
+
+.checkbox0:checked~.ul0{
+transform:translateX(0%);
+transform:translateY(2%);
 }
 
 }
