@@ -309,7 +309,7 @@ width:60%;
 position:absolute;
 text-align:left;
 left:-20;
-top:220;
+top:260;
 width:80%;
 font-size:15px;
 }
@@ -318,7 +318,7 @@ font-size:15px;
 .sec:nth-child(odd) .jo5{
 position:absolute;
 left:-20;
-top:300;
+top:340;
 }
 
 .sec:nth-child(even) .picture5{
@@ -327,14 +327,14 @@ height:50%;
 width:50%;
 position:absolute;
 top:10;
-left:90;
+left:130;
 }
 
 .sec:nth-child(even) .work5{
 position:absolute;
 text-align:left;
 left:-20;
-top:220;
+top:270;
 width:80%;
 font-size:15px;
 }
@@ -343,7 +343,7 @@ font-size:15px;
 .sec:nth-child(even) .jo5{
 position:absolute;
 left:-20;
-top:300;
+top:323;
 }
 
 
@@ -369,7 +369,7 @@ background-color:red;
 
 .img2{
 margin-left:-20px;
-
+margin-top:0px;
 }
 
 .checkbox0:checked~.ul0{
