@@ -367,7 +367,7 @@ margin-left:-20px;
 
 .checkbox0:checked~.ul0{
 transform:translateX(0%);
-transform:translateY(2%);
+transform:translateY(1%);
 }
 
 }
