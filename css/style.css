@@ -215,9 +215,9 @@ left:40;
 
 .section0{
 background-color:#FF3333;
-margin-top:0px;
 height:100%;
 width:100%;
+margin-top:0px;
 }
 
 .section0 .ul4{
@@ -291,7 +291,7 @@ left:525;
 
 
 
-div.section1{
+.section1{
 width:100%;
 height:100%;
 background-image:url('../images/TDS-Salsa-Parties-Banner.jpg');
