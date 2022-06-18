@@ -266,12 +266,14 @@ position:relative;
 
 
 .header img{
+width:auto;
 height:100%;
-position:absolute;
-top:4px;
-left:120;
-background-repeat:no-repeat;
+padding-top:3px;
+position: unset;
+
 }
+
+
 
 .ul4{
 position:relative;
@@ -381,10 +383,6 @@ transform:translateY(1%);
 }
 
 
-img {
-  height: auto;
-  position: unset;
-}
 
 .section2.sec {
   height: auto;
