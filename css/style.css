@@ -283,7 +283,7 @@ padding-top:10px;
 
 
 .picture1{
-height:36%;
+height: auto;
 width:25%;
 position:absolute;
 top:350;
@@ -292,8 +292,10 @@ left:525;
 
 
 
+
+
 .section1{
-width:100%;
+height: auto;
 height:100%;
 background-image:url('../images/TDS-Salsa-Parties-Banner.jpg');
 background-size:cover;
@@ -415,7 +417,7 @@ z-index:2;
 
 
 .img2{
-width:70%;
+height: auto;
 height:50%;
 position:absolute;
 border-radius:50%;
