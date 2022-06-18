@@ -409,4 +409,13 @@ img {
   padding-top: 0;
 }
 
+
+.section1{
+height: auto;
+height:100%;
+background-image:url('../images/TDS-Salsa-Parties-Banner.jpg');
+background-size:cover;
+position:unset;
+}
+
 }
