@@ -355,7 +355,7 @@ width:100%;
 }
 
 .ppp3{
-margin-top:80%;
+margin-top:50%;
 margin-left:0px;
 width:100%;
 }
@@ -394,7 +394,7 @@ img {
 
 .sec:nth-child(even) .picture5,
 .sec:nth-child(odd) .picture5 {
-  height: auto;
+  height:  auto;
   width: 80%;
   margin: 10px auto;
   position: unset;
