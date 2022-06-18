@@ -381,4 +381,32 @@ transform:translateY(1%);
 }
 
 
+img {
+  height: auto;
+  position: unset;
+}
+
+.section2.sec {
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.sec:nth-child(even) .picture5,
+.sec:nth-child(odd) .picture5 {
+  height: auto;
+  width: 80%;
+  margin: 10px auto;
+  position: unset;
+  display: block;
+  padding-left: 0;
+}
+
+.sec:nth-child(even) .work5,
+.sec:nth-child(odd) .work5,
+.sec:nth-child(odd) .jo5 {
+  position: unset;
+  padding-top: 0;
+}
+
 }
