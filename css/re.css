@@ -9,7 +9,7 @@ left:0;
 
 .div0{
 width:100%;
-height:8%;
+height:47px;
 }
 
 .div0 img{
@@ -268,8 +268,9 @@ position:relative;
 .header img{
 width:auto;
 height:100%;
-padding-top:3px;
-position: unset;
+position:absolute;
+top:3;
+right:40;
 
 }
 
