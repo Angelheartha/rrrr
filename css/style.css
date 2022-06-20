@@ -338,9 +338,17 @@ transform:translateX(-100px);
 }
 
 
-.fadein{
+.section2.fadein{
   opacity:1;
   transform:translateX(0);
+}
+
+
+.number,
+.find,
+#scroll,
+#wh{
+display:none;
 }
 
 
