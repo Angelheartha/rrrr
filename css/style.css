@@ -40,6 +40,12 @@ margin-left:5%;
 body {
   padding:0;
   margin:0;
+
+}
+
+
+section{
+overflow:hidden;
 }
 
 
@@ -220,6 +226,29 @@ width:100%;
 }
 
 
+.section1{
+height: auto;
+height:100%;
+background-image:url('../images/TDS-Salsa-Parties-Banner.jpg');
+background-size:cover;
+position:unset;
+text-align:center;
+position:relative;
+}
+
+
+
+.section1 p{
+color:#FF3333;
+font-weight:900;
+font-size:50px;
+position:absolute;
+width:70%;
+top:250;
+right:200;
+}
+
+
 
 .section0 .ul4{
 color:white;
@@ -250,7 +279,7 @@ box-shadow:inset -4px -4px #000080;
 
 .kpo{
 position:absolute;
-top:53;
+top:80;
 right:0;
 }
 
@@ -294,13 +323,6 @@ left:525;
 
 
 
-.section1{
-height: auto;
-height:100%;
-background-image:url('../images/TDS-Salsa-Parties-Banner.jpg');
-background-size:cover;
-position:unset;
-}
 
 
 .section2.sec{
@@ -332,6 +354,7 @@ width:400px;
 }
 
 
+
 .sec:nth-child(even) .work5{
 position:absolute;
 right:0;
@@ -341,7 +364,7 @@ top:0;
 
 .sec:nth-child(even) .jo5{
 position:absolute;
-top:200;
+top:300;
 }
 
 .sec:nth-child(even) .picture5{
@@ -359,20 +382,23 @@ top:0;
 .sec:nth-child(odd) .jo5{
 position:absolute;
 left:0;
-top:400;
+top:200;
 }
+
+
 
 
 
 .div3{
 background-color:lightblue;
-width:32.7%;
+width:30.3%;
 height:80%;
 display:inline-block;
 border:2px solid black;
 box-sizing:border-box;
 box-shadow:3px 3px rgba(0,0,0,0.357)
 margin-top:0;
+
 }
 
 
@@ -400,16 +426,23 @@ color:black;
 }
 
 .ppp3{
-margin-top:300px;
-margin-left:10px;
-width:400px;
+margin-top:370px;
+margin-left:300px;
+width:800px;
+font-size:25px;
 }
-　　
-.div3 .ppp4{
-margin-top:250px;
-margin-left:10px;
+
+
+
+.ppp5{
+margin-top:137px;
+margin-left:310px;
 width:400px;
+width:800px;
+font-size:25px;
 }
+
+
 
 
 .div5{
@@ -420,12 +453,12 @@ z-index:2;
 
 
 .img2{
-height: auto;
-width:80%;
+height:auto;
+width:30%;
 position:absolute;
 border-radius:50%;
-top:30;
-left:50;
+top:40;
+left:460;
 z-index:1;
 }
 
@@ -448,9 +481,10 @@ margin-top:0px;
 .rate{
 margin-top:50px;
 position: relative;
-top:0;
-left:30;
-display: inline-block;
+top:60;
+left:500;
+display:inline-block;
+transform:scale(1.4);
 }
 .rate:before{
 content: "★★★★★";
@@ -525,12 +559,6 @@ height: 24px;
 }
 
 
-
-.ppp5{
-margin-top:137px;
-margin-left:10px;
-width:400px;
-}
 
 
 

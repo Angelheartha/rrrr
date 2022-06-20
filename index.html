@@ -5,7 +5,27 @@
     <title>dance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.tiltedpage-scroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="tiltedpage-scroll.css" >
+
+
+
+<script type="text/javascript">
+     $(document).ready(function(){
+    $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",
+    angle: 70,
+    opacity: true,
+    scale: true,
+    outAnimation: true
+  });
+  });
+    </script>
+
 </head>
+
 <header class="header">
 <div class="div0">
     <div class="div2">
@@ -35,7 +55,12 @@
 </div>
 </header>
 
-<div class="section0">
+
+<div class="main">
+
+
+
+<section class="section0">
     <ul class="ul4">
         <li class="li4"> All In-Studio Classes Open</li>
         <div class="li4 lii3">
@@ -48,11 +73,12 @@
              CLICK HERE TO SIGN UP!
          </a></li>
     </ul>
-</div>
-<div class="section1">
-</div>
+</section>
+<section class="section1">
+    <p>How about if you and i Me and you Bailamos bachata?</p>
+</section>
 
-<div class="section2 sec">
+<section class="section2 sec">
     <img class="picture5" src="images/IMG_2896-Cut_out.png" no-repeat>
     <P class="work5" id="how">
         MORE THAN A DANCE CLASS,
@@ -65,8 +91,8 @@ Unleash your potential.
 Find your happy place.
 Just show up. Just dance.
     </p>
-</div>
-<div class="section2 sec">
+</section>
+<section class="section2 sec">
 <img class="picture5" src="images/TDS-brand-new-1-img-v2-compressor.png" no-repeat>
     <p class="work5">
         BRAND NEW TO SALSA DANCING? How to get started.
@@ -74,8 +100,8 @@ Just show up. Just dance.
     <p class="work5 jo5">
         Bring yourself, we’ll take care of the rest. Whether you’re single or a couple, Salsa Level 1 is your zero-pressure, absolute-beginner intro to social dancing.
     </p>
-</div>
-<div class="section2 sec">
+</section>
+<section class="section2 sec">
 <img class="picture5" src="images/TDS-About-No-Matter-Who-v2 (1).png" no-repeat>
     <P class="work5">
         COME OUT AND DANCE WITH US!
@@ -83,9 +109,9 @@ Just show up. Just dance.
     <P class="work5 jo5">
         Our TDS socials are weekly dance parties where you’ll join over 100 friends ready to practice, mingle, and dance like no one’s watching.
     </P>
-</div>
+</section>
 
-<div class="playlistt">
+<section class="playlistt">
     <p class="playlist">
         Modern bachata
     </p>
@@ -95,7 +121,7 @@ Just show up. Just dance.
             <iframe width="560" height="315" src="https://www.youtube.com/embed/bdOXnTbyk0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  </div>
     </div>
-</div>
+</section>
 
 
 
@@ -113,7 +139,7 @@ Just show up. Just dance.
         <img class="img2" src="images/mascotas-roedores-hamster4-XxXx80.jpg" alt="a">
               <div class="div4" id="about">About</div>
             <p class="ppp3">私は山野と申します。27歳です。ただいま、テレアポよプログラミングのアルバイトしながら転職活動しています。
-        よろしくお願います。エンジニアリングに憧れて、将来はフロントエンドエンジニアとして働きたいです。よろしくお願いします。
+        よろしくお願います。エンジニアリングに憧れて、将来はフロントエンドエンジニアとして働きたいです。
 
         </p>
         </a>
@@ -125,11 +151,6 @@ Just show up. Just dance.
 <div class="rate"><span class="rate2">Python(Django)</span></div><br>
 <div class="rate"><span class="rate2-5">Python</span></div><br>
 <div class="rate"><span class="rate3">HTML/CSS </span></div><br>
-            <p class="ppp4">元々はパソコンをいじったことがないところから
-                パソコン買って独学でDjangoで簡単なアプリを作って、今はpython,Djangoを使って
-                アルバイトをしています。今後はフロントエンジニアを目指してHTML/CSS以外にJqueryの勉強を
-                しています。
-            </p>
         </a>
 </section>
 <section class="div3">
@@ -140,15 +161,21 @@ Just show up. Just dance.
             近いイタリア語が日常会話が出来ます。約一年前からIT国家のイスラエルに興味をもち、今はヘブライ語を
             勉強していて中級レベルです。いろんな人と一緒に勉強出来たらと思って最初に何かを作ろうとプログラミングを勉強はじめました。
             それとテレアポのアルバイトのストレス、健康維持でブラジリアン柔術を二年ほど前から習っています。
-            あとはラテンなのでサルサ、バチャータを踊るのが好きです。時間あるときは楽しむようにしてます。よろしくお願いします。
+            あとはラテンなのでサルサ、バチャータを踊るのが好きです。時間あるときは楽しむようにしてます。
+            元々はパソコンをいじったことがないところから 独学でDjangoで簡単なアプリを作って、今はpython,Djangoを使って
+            アルバイトをしています。今後はフロントエンジニアを目指して よろしくお願いします。
 
              </p>
    </a>
 </section>
 
-<footer class="footer">
+    <footer class="footer">
        <p class="ppp">All rights reserved — 2022 — Privacy</p>
     </footer>
+
+
+</div>
+
 
 
 </html>
