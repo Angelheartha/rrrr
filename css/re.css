@@ -275,6 +275,16 @@ right:40;
 
 }
 
+.bachatame{
+height:auto;
+width:7%;
+background-repeat:no-repeat;
+background-color:transparent;
+position:absolute;
+top:295;
+left:20;
+}
+
 
 
 .ul4{
@@ -460,7 +470,7 @@ font-size:40px;
 position:absolute;
 width:70%;
 top:250;
-right:80;
+right:60;
 }
 
 .ul4 .li4{

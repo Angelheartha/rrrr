@@ -5,8 +5,9 @@
     <title>dance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="csshake.min.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.tiltedpage-scroll.js"></script>
   <link rel="stylesheet" type="text/css" href="tiltedpage-scroll.css" >
 
@@ -24,9 +25,33 @@
   });
     </script>
 
+    <script>
+        var window_h = $(window).height();
+   $("#wh span").text(window_h);
+
+$(window).on("scroll", function() {
+  var scroll_top = $(window).scrollTop();
+  $("#scroll span").text(scroll_top);
+
+  $(".section2").each(function() {
+    var elem_pos = $(this).offset().top;
+    $(this).find(".find span").text(Math.floor(elem_pos));
+  　
+    //どのタイミングでフェードインさせるか
+
+    if (scroll_top >= elem_pos - window_h+200) {
+      $(this).addClass("fadein");
+    } else {
+      $(this).addClass("fadein");
+    }
+  });
+});
+    </script>
+
 </head>
 
 <header class="header">
+
 <div class="div0">
     <div class="div2">
             <p class="p0">MENU</p>
@@ -48,18 +73,20 @@
         </ul>
     </div>
     <img src="images/TDS-Logo-RGB-Black@2x (1).png">
+         <h1>スクロールでコンテンツフェードインさせてみる</h1>
+  <p id="scroll">スクロール値：<span>0</span></p>
+  <p id="wh">ウィンドウの高さ：<span>0</span></p>
+
     <div class="div1">
         <a href="#" class="a0 p0" alt="Learn to Dance">Learn to Dance</a>
         <a href="#" class="a0 p1" alt="All Classes">All Classes</a>
     </div>
 </div>
+
 </header>
 
 
 <div class="main">
-
-
-
 <section class="section0">
     <ul class="ul4">
         <li class="li4"> All In-Studio Classes Open</li>
@@ -75,11 +102,19 @@
     </ul>
 </section>
 <section class="section1">
-    <p>How about if you and i Me and you Bailamos bachata?</p>
+
+    <div class="shake-slow"><p>How about if you and i Me and you Bailamos bachata?</p>
+<img src="images/a1be6288565915a1f1f5c727faee5b87.jpg" class="bachatame"></div>
 </section>
 
+
+</div>
+
+
 <section class="section2 sec">
-    <img class="picture5" src="images/IMG_2896-Cut_out.png" no-repeat>
+    <div class="shake-slow">
+        <img class="picture5" src="images/IMG_2896-Cut_out.png" no-repeat>
+    </div>
     <P class="work5" id="how">
         MORE THAN A DANCE CLASS,
     </P>
@@ -91,24 +126,38 @@ Unleash your potential.
 Find your happy place.
 Just show up. Just dance.
     </p>
+    <p class="find">top:
+        <span>0</span></p>
 </section>
+
+
 <section class="section2 sec">
-<img class="picture5" src="images/TDS-brand-new-1-img-v2-compressor.png" no-repeat>
+<div class="shake-slow">
+    <img class="picture5" src="images/TDS-brand-new-1-img-v2-compressor.png" no-repeat>
+</div>
     <p class="work5">
         BRAND NEW TO SALSA DANCING? How to get started.
    </p>
     <p class="work5 jo5">
         Bring yourself, we’ll take care of the rest. Whether you’re single or a couple, Salsa Level 1 is your zero-pressure, absolute-beginner intro to social dancing.
     </p>
+    <p class="find">top:
+        <span>0</span></p>
 </section>
+
+
 <section class="section2 sec">
-<img class="picture5" src="images/TDS-About-No-Matter-Who-v2 (1).png" no-repeat>
+<div class="shake-slow">
+    <img class="picture5" src="images/TDS-About-No-Matter-Who-v2 (1).png" no-repeat>
+</div>
     <P class="work5">
         COME OUT AND DANCE WITH US!
     </P>
     <P class="work5 jo5">
         Our TDS socials are weekly dance parties where you’ll join over 100 friends ready to practice, mingle, and dance like no one’s watching.
     </P>
+    <p class="find">top:
+        <span>0</span></p>
 </section>
 
 <section class="playlistt">
@@ -118,8 +167,9 @@ Just show up. Just dance.
     <div class="music">
         <p class="modern" id="song">MODERN BACHATA PLAYLIST</p>
         <div class="modern2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bdOXnTbyk0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QFs3PIZb3js" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+
     </div>
 </section>
 
@@ -131,7 +181,7 @@ Just show up. Just dance.
 
 
 
-
+<div class="main">
 
 
 <section class="div3 div5">
