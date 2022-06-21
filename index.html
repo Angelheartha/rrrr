@@ -26,16 +26,17 @@
     </script>
 
     <script>
-        var window_h = $(window).height();
+var window_h = $(window).height();
    $("#wh span").text(window_h);
 
 $(window).on("scroll", function() {
   var scroll_top = $(window).scrollTop();
   $("#scroll span").text(scroll_top);
 
-  $(".section2").each(function() {
+  $(".section2").each(function(){
     var elem_pos = $(this).offset().top;
     $(this).find(".find span").text(Math.floor(elem_pos));
+
   　
     //どのタイミングでフェードインさせるか
 
@@ -46,6 +47,30 @@ $(window).on("scroll", function() {
     }
   });
 });
+    </script>
+    <script>
+var window_h = $(window).height();
+   $("#wh span").text(window_h);
+
+$(window).on("scroll", function() {
+  var scroll_top = $(window).scrollTop();
+  $("#scroll span").text(scroll_top);
+
+  $(".playlistt").each(function(){
+    var elem_pos = $(this).offset().top;
+    $(this).find(".find span").text(Math.floor(elem_pos));
+
+  　
+    //どのタイミングでフェードインさせるか
+
+    if (scroll_top >= elem_pos - window_h+200) {
+      $(this).addClass("fadein");
+    } else {
+      $(this).removeClass("fadein");
+    }
+  });
+});
+
     </script>
 
 </head>
@@ -163,7 +188,7 @@ Just show up. Just dance.
 </section>
 
 
-<div class="main">
+
 
 <section class="playlistt">
     <p class="playlist">
@@ -174,7 +199,8 @@ Just show up. Just dance.
         <div class="modern2">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/QFs3PIZb3js" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
-
+    <p class="find">top:
+        <span>0</span></p>
     </div>
 </section>
 
@@ -185,7 +211,7 @@ Just show up. Just dance.
 
 
 
-
+<div class="main">
 
 
 <section class="div3 div5">

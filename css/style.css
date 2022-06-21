@@ -323,6 +323,21 @@ left:525;
 
 
 
+.playlistt{
+transform:translateY(-300px);
+  opacity:0;
+  transition:opacity 1s,transform 0.5s;
+}
+
+
+
+.playlistt.fadein{
+  opacity:1;
+  transform:translateY(0);
+}
+
+
+
 
 
 .section2.sec{
