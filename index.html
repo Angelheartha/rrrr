@@ -81,9 +81,7 @@ function showModal(event){
 event.preventDefault();
 
 var $shade = $('<diV></div>');
-$shade
-.attr('id','shade')
-.on('click',hideModal);
+$shade.attr('id','shade').on('click',hideModal);
 
 
 var $modalWin = $('#modalwin');
@@ -107,7 +105,7 @@ $('#modalwin')
 .addClass('hide')
 };
 
-$('.icon .name .show-modal').on('click',showModal);
+$('.icon .show-modal').on('click',showModal);
 });
    </script>
 
@@ -155,7 +153,7 @@ $('.icon .name .show-modal').on('click',showModal);
 		<p>
              i am so sorry! At this moment,i am not available.if you want to contact with me, come my party!
 		</p>
-		<button >ok</button>
+		<button class="but">ok</button>
 	</div>
 </div>
 
