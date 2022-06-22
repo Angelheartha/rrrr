@@ -431,25 +431,51 @@ height:auto;
 }
 
 
-
+.div5{
+width:100%;
+height:100%;
+}
 
 .div3{
-background-color:lightblue;
-width:30.3%;
-height:80%;
-display:inline-block;
-border:2px solid black;
+background-color:white;
+width:100%;
+height:90%;
+border-bottom:2px solid black;
 box-sizing:border-box;
 box-shadow:3px 3px rgba(0,0,0,0.357)
 margin-top:0;
+float:left;
+padding-top:0px;
+padding-left:50px;
+padding-right:50px;
+display:block;
+position:relative;
+}
 
+.img2{
+height:240px;
+width:240px;
+border-radius:50%;
+object-fit:cover;
+z-index:1;
+position:absolute;
+left:840;
+top:30;
+}
+
+
+
+
+.div3 h1{
+font-size:200%;
+padding-top:4%;
 }
 
 
 .ul3{
 background-color:blue;
 width:80%;
-height:80%;
+height:100%;
 list-style:none;
 }
 
@@ -458,22 +484,72 @@ color:white;
 padding-top:20px;
 }
 
-.div4{
-text-align:center;
-}
 
 .div3 a{
 text-decoration:none;
-font-size:18px;
+font-size:20px;
 font-weight:900;
 color:black;
+
 }
 
 .ppp3{
-margin-top:370px;
-margin-left:300px;
-width:800px;
-font-size:25px;
+width:100%;
+font-size:15px;
+padding-top:6%;
+}
+
+
+.icon{
+background-color:white;
+width:100%;
+display:flex;
+justify-content:flex-end;
+}
+
+
+.name p{
+color:white;
+background-color:red;
+margin-top:30px;
+padding:5 25 5 25px;
+margin-right:80px;
+border-radius:40px;
+
+}
+
+.icon2{
+background-color:white;
+}
+
+.fa-twitter-square,
+.fa-facebook-square{
+color:#0074D9;
+}
+
+.fa-whatsapp-square{
+color:#30B21A;
+}
+
+
+
+.name p:hover,
+.fa-brands:hover{
+opacity:0.5;
+}
+
+
+.icon2 ul{
+list-style:none;
+padding-right:100px;
+display:flex;
+padding-top:20px;
+}
+
+.icon2 ul li{
+padding:0 15 0 15px;
+transform:scale(2);
+
 }
 
 
@@ -486,7 +562,11 @@ width:800px;
 font-size:25px;
 }
 
-
+.div4{
+font-size:43px;
+padding-top:60px;
+font-weight:900;
+}
 
 
 .div5{
@@ -496,15 +576,7 @@ z-index:2;
 
 
 
-.img2{
-height:auto;
-width:30%;
-position:absolute;
-border-radius:50%;
-top:40;
-left:460;
-z-index:1;
-}
+
 
 .ul2 .li2{
 color:white;
@@ -513,11 +585,16 @@ background-color:yellow;
 
 
 .footer{
-background-color:#FF3333;
+background-color:black;
 color:white;
 font-weight:900;
 text-align:center;
+height:50px;
 margin-top:0px;
+}
+
+.footer .ppp{
+padding-top:15px;
 }
 
 
