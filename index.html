@@ -86,9 +86,10 @@ $(function(){
          var $modalWin = $('#modalwin');
          var $window = $(window);
          var posX = ($window.width()-$modalWin.outerWidth())/2;
-         var posY = ($window.height()-$modalWin.outerHeight())/2;
+         var posY = ($window.innerHeight-$modalWin.outerHeight())/2;
 
          $modalWin
+            .before($shade)
             .css({left:posX,top:posY})
             .removeClass('hide')
             .addClass('show')
@@ -141,25 +142,22 @@ $(function(){
         <a href="#" class="a0 p1" alt="All Classes">All Classes</a>
     </div>
 </div>
-
-</header>
+    <body>
 
 <div id="modalwin" class="modalwin hide">
 	<a href="#" class="modal-close">✖</a>
 	<hi>i don't know...</hi>
 	<div class="modelwin-contents clear">
 		<p>
-             i am so sorry! At this moment,i am not available.if you want to contact with me, come my party!
+             i am so sorry! At this moment,i am not available.if you want to contact with me, come at my party tonight at 20!
 		</p>
-		<button class="but">ok</button>
+         <button class="but">ok</button>
 	</div>
 </div>
 
+</body>
 
-
-
-
-
+</header>
 
 
 <div class="main">

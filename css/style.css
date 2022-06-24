@@ -783,13 +783,14 @@ position:relative;
 
 .modalwin{
 position:fixed;
-width:100%;
-height:60%;
+top:50;
+width:920px;
+height:445px;
 background-image:url('../images/bachata-bailando-bachata-bachata-dominicana-marca-pais.jpg');
 background-size:cover;
-border-radius:5px;
-box-shadow:0 2px 4px 0 #000;
-z-index:1000;
+border-radius:10px;
+box-shadow:0 4px 8px 0 #000;
+z-index:2141111;
 }
 
 .show{
@@ -802,6 +803,10 @@ display:none;
 
 
 
+
+
+
+
 .modalwin h1{
 background:#ededed;
 padding:20px;
@@ -810,11 +815,15 @@ font-size:1.2em;
 }
 
 
-
+.but{
+margin-top:280px;
+border-radius:7px;
+}
 
 
 .modelwin-contents.clear p{
-margin:10 0 10 0px;
+margin:10 0 10 30px;
+font-size:28px;
 line-height:1.8em;
 color:white;
 }
@@ -832,6 +841,11 @@ width:100%;
 height:100%;
 background-color:#999;
 opacity:0.9;
+z-index:21411;
+}
+
+body{
+transform:none !important;
 }
 
 .modalwin .modal-close{
@@ -848,6 +862,7 @@ text-decoration:none;
 
 .modalwin .modal-close:hover{
 background-position:-40px 0;
+color:red;
 }
 
 .modalwin .modal-close:active{

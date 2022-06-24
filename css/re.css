@@ -114,9 +114,11 @@ top:340;
 left:130;
 }
 
+
 .ul4 li{
 font-size:20px;
 font-weight:900;
+margin-right:50px;
 margin-top:40px;
 }
 
@@ -125,6 +127,16 @@ width:80%;
 margin-left:0px;
 margin-top:0;
 }
+
+
+.picture1{
+height: auto;
+width:60%;
+position:absolute;
+top:400;
+left:85;
+}
+
 
 
 .ul4 .li4 span{
@@ -136,6 +148,32 @@ width:100%;
 height:100%;
 background-size:cover;
 }
+
+
+
+
+.section1 p{
+color:#FF3333;
+font-weight:900;
+font-size:50px;
+position:absolute;
+width:70%;
+top:250;
+left:60;
+}
+
+
+.bachatame{
+height:auto;
+width:5%;
+background-repeat:no-repeat;
+background-color:transparent;
+position:absolute;
+top:320;
+left:40;
+}
+
+
 
 .div2 .ul0{
 text-align:left;
@@ -152,34 +190,59 @@ z-index:200;
 }
 
 
+
 .sec:nth-child(odd) .picture5{
 background-repeat:no-repeat;
+padding-left:20%;
+height:45%;
+width:55%;
 position:absolute;
-left:0;
+top:40;
+left:10;
 }
 
 .sec:nth-child(odd) .work5{
 position:absolute;
 text-align:left;
-left:0;
-top:40;
-width:70%;
+left:-20;
+top:260;
+width:80%;
 font-size:15px;
+
 }
 
 
 .sec:nth-child(odd) .jo5{
 position:absolute;
-left:0;
-top:200;
+left:-20;
+top:340;
 }
 
 .sec:nth-child(even) .picture5{
 background-repeat:no-repeat;
+height:47%;
+width:47%;
 position:absolute;
-left:200;
-top:10;
+top:30;
+left:130;
 }
+
+.sec:nth-child(even) .work5{
+position:absolute;
+text-align:left;
+left:-20;
+top:270;
+width:80%;
+font-size:15px;
+}
+
+
+.sec:nth-child(even) .jo5{
+position:absolute;
+left:-20;
+top:323;
+}
+
 
 
 .modern2,
@@ -190,12 +253,7 @@ border-radius:40px;
 padding-left:0%;
 }
 
-.div3{
-width:100%;
-height:100%;
-box-sizing:border-box;
-background-color:lightpink;
-}
+
 
 
 .img2{
@@ -215,10 +273,111 @@ font-weight:900;
 
 .kpo{
 position:absolute;
-top:76;
+top:100;
 left:-5;
 font-size:27px;
 }
+
+
+.section0{
+background-color:#FF0066;
+height:100%;
+width:100%;
+
+}
+
+
+.ppp5{
+margin-top:10%;
+margin-left:0px;
+width:100%;
+}
+
+.ppp3{
+margin-top:20px;
+margin-left:0px;
+width:100%;
+}
+
+
+
+.img2{
+margin-left:0px;
+margin-top:0px;
+height:280px;
+width:280px;
+object-fit:cover;
+}
+
+
+
+
+
+
+
+
+.div5{
+width:100%;
+height:1150px;
+}
+
+.div3{
+background-color:white;
+width:100%;
+height:1050px;
+border-bottom:2px solid black;
+box-sizing:border-box;
+box-shadow:3px 3px rgba(0,0,0,0.357)
+margin-top:0;
+float:left;
+padding-top:0px;
+padding-left:50px;
+padding-right:50px;
+display:block;
+position:relative;
+}
+
+
+
+.div4{
+font-size:43px;
+padding-top:360px;
+font-weight:900;
+}
+
+
+.modalwin{
+position:fixed;
+top:80;
+width:300px;
+height:400px;
+background-image:url('../images/bachata-bailando-bachata-bachata-dominicana-marca-pais.jpg');
+background-size:cover;
+border-radius:10px;
+box-shadow:0 4px 8px 0 #000;
+z-index:2141111;
+}
+
+.modelwin-contents.clear p{
+margin:10 30 10 30px;
+font-size:12px;
+letter-spacing:1px;
+line-height:1.8em;
+color:white;
+}
+
+
+.but{
+margin-top:250px;
+border-radius:7px;
+}
+
+
+.modalwin .modal-close:hover{
+background-position:-40px 0;
+color:red;
+}
+
 
 
 }
@@ -679,7 +838,37 @@ height: 24px;
 }
 
 
+.modalwin{
+position:fixed;
+top:80;
+width:300px;
+height:400px;
+background-image:url('../images/bachata-bailando-bachata-bachata-dominicana-marca-pais.jpg');
+background-size:cover;
+border-radius:10px;
+box-shadow:0 4px 8px 0 #000;
+z-index:2141111;
+}
 
+.modelwin-contents.clear p{
+margin:10 30 10 30px;
+font-size:12px;
+letter-spacing:1px;
+line-height:1.8em;
+color:white;
+}
+
+
+.but{
+margin-top:250px;
+border-radius:7px;
+}
+
+
+.modalwin .modal-close:hover{
+background-position:-40px 0;
+color:red;
+}
 
 
 
